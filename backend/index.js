@@ -88,9 +88,10 @@ async function main() {
   });
 
   const port = process.env.PORT || 3000;
-  app.listen(port, function () {
-    console.log("Servidor rodando na porta: " + port);
-  });
+app.listen(port,function(){
+  console.log("Servidor Rodando na porta:" + port );
+});
+  app.listen(3000);
 }
 
 main();
